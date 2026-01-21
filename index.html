@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Listy HTML i list-style</title>
+
+    <style>
+        
+        .lista1 {
+            list-style-type: square;
+        }
+
+        
+        .lista2 {
+            list-style-type: upper-roman;
+        }
+
+        
+        .lista3 {
+            list-style-image: url("1.png");
+            list-style-position: outside;
+        }
+
+        
+        .lista4 {
+            list-style: circle inside;
+        }
+
+        
+        .bez-znacznikow {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Przykłady list i właściwości list-style</h1>
+
+<h2>Lista 1 – list-style-type (lista nieuporządkowana)</h2>
+<ul class="lista1">
+    <li>Jabłka</li>
+    <li>Banany</li>
+    <li>Pomarańcze</li>
+</ul>
+
+
+<h2>Lista 2 – list-style-type (lista uporządkowana)</h2>
+<ol class="lista2">
+    <li>Pobudka</li>
+    <li>Śniadanie</li>
+    <li>Szkoła</li>
+</ol>
+
+
+
+<h2>Lista 3 – list-style-image</h2>
+<ul class="lista3">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+
+
+<h2>Lista 4 – list-style (shorthand) + list-style-position</h2>
+<ul class="lista4">
+    <li>Film</li>
+    <li>Muzyka</li>
+    <li>Książki</li>
+</ul>
+
+
+
+<h2>Przykład list-style-type: none</h2>
+<ul class="bez-znacznikow">
+    <li>Brak punktora</li>
+    <li>Brak numeracji</li>
+</ul>
+
+
+
+</body>
+</html>
